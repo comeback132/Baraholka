@@ -1,0 +1,46 @@
+form{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact-form-wrap{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  background-color: #FFFF;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.top-fields{
+  padding-bottom: 30px;
+}
+.top-fields,.bottom-fields{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+label{
+  font-size: 10px;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid;
+  min-width: 300px;
+  font-size: 11px;
+  color: #243573;
+  padding-bottom: 5px;
+}
+input::placeholder{
+  color: #243573;
+}
+.error-message{
+  color:red;
+  font-size: 10px;
+}
